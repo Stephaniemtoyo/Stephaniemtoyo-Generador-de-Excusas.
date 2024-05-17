@@ -15,16 +15,16 @@ let generateExcuse = () => {
   let possetion = ["Sneke toy", "Phone", "Cake"];
   let where = ["In the Bathroom", "In the Party", "In my house", "In the park"];
 
-  let proIndx = Math.floor(Math.random() * pronoun.length);
-  let subjtIndx = Math.floor(Math.random() * subject.length);
+  let pronounIndx = Math.floor(Math.random() * pronoun.length);
+  let subjecttIndx = Math.floor(Math.random() * subject.length);
   let actionIndx = Math.floor(Math.random() * action.length);
   let possetionIndx = Math.floor(Math.random() * possetion.length);
   let whereIndx = Math.floor(Math.random() * where.length);
 
   return (
-    pronoun[proIndx] +
+    pronoun[pronounIndx] +
     " " +
-    subject[subjtIndx] +
+    subject[subjecttIndx] +
     " " +
     action[actionIndx] +
     " " +
